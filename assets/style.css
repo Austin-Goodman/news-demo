@@ -2,7 +2,9 @@ html {
   box-sizing: border-box;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
   margin: 0;
   padding: 0;
@@ -151,7 +153,8 @@ form {
     margin-bottom: 10px;
   }
 
-  form, .search-input {
+  form,
+  .search-input {
     width: 100%;
   }
 
